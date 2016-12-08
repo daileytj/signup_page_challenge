@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analog Sea Signup Page</title>
+	<meta name = "description" content = "Cloud computing for the 22nd century!"/>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+	<img src="images/logo.png" alt="Analog Sea Logo" />
+	<div class = "signup">
+		<form class = "signup_form" action = "/signup/" method = "post"/>
+			<h1>Sign Up</h1>
+			<fieldset name = "contact_info">
+				<label for = "email">Email</label>
+				<input type="email" name = "email" id = "email" placeholder="foo@bar.com" required />
+				<label for = "password">Password</label>
+				<input type = "password" name = "password" id = "password" placeholder = "1234passw0rd" required />
+			</fieldset>
+			<button type = "submit" class = signup_button>Sign Up</button>
+			<a  class = "forgot_password" href="/forgot-password/new">Forgot Password?</a>
+		</form>
+	</div>
+	<div class = "login">
+	<p>Already have an account? <a href="/login">Log In</a></p>
+	</div>
+</body>
+</html>
